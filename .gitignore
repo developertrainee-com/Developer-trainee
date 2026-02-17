@@ -1,0 +1,69 @@
+# =========================
+# Node.js / Backend
+# =========================
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+debug.log
+error.log
+*.pid
+*.seed
+*.pid.lock
+
+# Build / cache
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local testing files
+*.local.json
+
+# JWT secret generators or test scripts
+generate-jwt-secret.js
+
+# =========================
+# Chrome Extension
+# =========================
+
+# Zip files and packaged extensions
+*.zip
+*.crx
+
+# Local dev builds
+extension/build/
+extension/dist/
+
+# =========================
+# Misc
+# =========================
+
+# Ignore backup and temp files
+*~
+*.bak
+*.tmp
+
+# Ignore lockfiles (optional — keep if using npm/yarn lock)
+package-lock.json
+yarn.lock
